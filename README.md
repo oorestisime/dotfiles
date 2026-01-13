@@ -47,3 +47,25 @@ cp hypr/bindings.conf ~/.config/hypr/bindings.conf
 **bindings.conf:**
 - App launchers (terminal, browser, obsidian, signal, etc.)
 - Web app shortcuts (ChatGPT, calendar, email, YouTube, etc.)
+
+### Bash
+
+Real-time history sharing across terminals.
+
+```bash
+mkdir -p ~/.config/bash
+cp bash/history.sh ~/.config/bash/history.sh
+```
+
+Add to end of `~/.bashrc`:
+```bash
+. ~/.config/bash/history.sh
+```
+
+### Ghostty
+
+Terminal config with copy-on-select and clipboard integration.
+
+```bash
+cp ghostty/config ~/.config/ghostty/config
+```
